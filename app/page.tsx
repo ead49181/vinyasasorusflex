@@ -51,7 +51,7 @@ function downloadRocketPDF() {
   doc.setFont("helvetica", "bold"); doc.setFontSize(20);
   doc.text("Rocket III", margin, y); y += 6;
   doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(120);
-  doc.text("Developed by Larry Schultz — \"It lets you do it now.\"", margin, y); y += 10;
+  doc.text("Developed by Larry Schultz — \"Because it gets you there faster.\"", margin, y); y += 10;
   doc.setDrawColor(200); doc.line(margin, y, 210 - margin, y); y += 8;
   rocketIII.forEach((section) => {
     if (y > 260) { doc.addPage(); y = 20; }
@@ -276,7 +276,7 @@ export default function Home() {
             <div>
               <h2 className="text-2xl font-semibold mb-1">Ashtanga Primary Series</h2>
               <p className="text-gray-500 text-sm">
-                The traditional set sequence as taught by Sri K. Pattabhi Jois — also known as <em>Yoga Chikitsa</em> (Yoga Therapy).
+                Rejecting Modernity and Embracing Tradition? The traditional set sequence as taught by Sri K. Pattabhi Jois — also known as <em>Yoga Chikitsa</em> (Yoga Therapy).
                 The word "Ashtanga" comes from the Sanskrit <em>Ashta</em> (eight) and <em>Anga</em> (limbs), referring to the Eight Limbs of Yoga
                 described in the Yoga Sutras of Patanjali.
               </p>
