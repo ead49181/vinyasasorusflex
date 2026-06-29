@@ -15,8 +15,7 @@ export default function About() {
       <section
         className="relative h-screen flex flex-col justify-center items-center text-white text-center px-10"
 style={{ backgroundImage: "url('/yoga2.jpg')", backgroundSize: "cover", backgroundPosition: "top" }}
-        style={{ backgroundImage: "url('/yoga2.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
-      >
+        
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10">
           <h1 className="text-4xl font-bold mb-2">About</h1>
