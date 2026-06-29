@@ -347,6 +347,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Footer */}
+<footer className="border-t border-gray-100 py-8 text-center text-xs text-gray-400">
+  <p>© 2026 Vinyasaurus Flex · <a href="/privacy" className="text-purple-600 underline">Privacy Policy</a></p>
+</footer>
 
     </div>
   );
