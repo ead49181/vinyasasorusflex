@@ -347,16 +347,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Footer */}
-<footer className="border-t border-gray-100 py-8 text-center text-xs text-gray-400">
-  <p>© 2026 Vinyasaurus Flex · <a href="/privacy" className="text-purple-600 underline">Privacy Policy</a></p>
-</footer>
-</section>
-
-      {/* Footer */}
+      
+     {/* Footer */}
       <footer className="border-t border-gray-100 py-10 text-center px-6">
         
-          href="https://www.buymeacoffee.com/lizdraper"
+          <a href="https://www.buymeacoffee.com/lizdraper"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-medium transition"
@@ -369,4 +364,3 @@ export default function Home() {
     </div>
   );
 }
-    
